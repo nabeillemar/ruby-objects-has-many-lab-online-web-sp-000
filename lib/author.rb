@@ -1,4 +1,4 @@
-class Artist
+class Author
 attr_accessor :name
 
 def initialize(name)
@@ -6,7 +6,7 @@ def initialize(name)
 end
 
 def songs 
-  Song.all.select{|song| song.artist == self} 
+  Post.all.select{|post| post.artist == self} 
 end 
 
 def add_song(song)
