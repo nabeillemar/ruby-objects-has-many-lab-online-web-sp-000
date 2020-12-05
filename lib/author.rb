@@ -14,13 +14,13 @@ def add_post(post)
 end 
 
 
-def add_post_by_name(name)
-  song = Song.new(name)
-  add_song(song)
+def add_post_by_title(title)
+  title = Post.new(name)
+  add_post(post)
 end 
 
-def self.song_count 
-  Song.all.count
+def self.post_count 
+  Post.all.count
 end 
 
 
