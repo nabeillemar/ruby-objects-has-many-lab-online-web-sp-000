@@ -5,7 +5,7 @@ def initialize(name)
   @name = name
 end
 
-def songs 
+def posts 
   Post.all.select{|post| post.author == self} 
 end 
 
