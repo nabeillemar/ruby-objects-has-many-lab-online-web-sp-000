@@ -20,7 +20,7 @@ def add_song_by_name(name)
 end 
 
 def song_count 
-  @@all.artist.count 
+  self.all.artist.count 
 end 
 
 
