@@ -18,7 +18,7 @@ class Song
   
   
   def artist_name 
-    if @name 
+    if artist.name 
     self.aritst.name 
   end 
     
