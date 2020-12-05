@@ -19,5 +19,9 @@ def add_song_by_name(name)
   add_song(song)
 end 
 
+def song_count 
+  @@all.artist.count 
+end 
+
 
 end
