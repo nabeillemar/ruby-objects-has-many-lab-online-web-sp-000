@@ -15,7 +15,7 @@ end
 
 
 def add_post_by_title(title)
-  title = Post.new(name)
+  title = Post.new(title)
   add_post(post)
 end 
 
