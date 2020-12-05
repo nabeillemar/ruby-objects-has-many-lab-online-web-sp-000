@@ -19,6 +19,7 @@ class Song
   
   def artist_name 
     self.aritst.name 
+  end 
     
   
 end 
