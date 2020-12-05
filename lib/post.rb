@@ -1,4 +1,4 @@
-class Song 
+class Post 
   attr_accessor :title, :author
   
   @@all = []
@@ -17,7 +17,7 @@ class Song
   end 
   
   
-  def artist_name 
+  def author_name 
     if self.artist
     self.artist.name 
   else 
