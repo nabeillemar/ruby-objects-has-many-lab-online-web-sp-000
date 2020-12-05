@@ -16,12 +16,6 @@ class Song
     @@all 
   end 
   
-  def artist_name 
-    if artist == name 
-    self.artist.name 
-  else 
-    return nil 
-  end 
     
   
 end 
